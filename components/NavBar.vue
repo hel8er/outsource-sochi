@@ -6,7 +6,7 @@
             </div>
             <div class="flex-none space-x-2">
                 <ContactsDropdown />
-                <ColormodeSwitch />
+                <!-- <ColormodeSwitch /> -->
             </div>
         </div>
     </div>
