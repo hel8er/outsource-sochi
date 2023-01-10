@@ -5,6 +5,10 @@
         <div class="chat-bubble">Приветос! <br />Пока тут пусто потому, что сайт находится в разработке 🤷‍♂️</div>
     </div>
 
+        <div class="chat chat-start">
+        <div class="chat-bubble">Coming soon!</div>
+    </div>
+
         </div>
 
 </template>
