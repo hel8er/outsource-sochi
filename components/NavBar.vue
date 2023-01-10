@@ -13,7 +13,7 @@
                         </path>
                     </svg>
                 </button> -->
-                <label for="my-modal-3" class="btn btn-ghost">✉️</label>
+                <label for="my-modal-3" class="btn btn-ghost"><Icon name="ic:baseline-mail-outline" size="32"/></label>
 
             </div>
         </div>
