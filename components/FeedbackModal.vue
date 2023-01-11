@@ -37,7 +37,7 @@
 
                 </div>
                 <div class="modal-action">
-      <label for="my-modal" class="btn">Отправить!</label>
+      <label for="my-modal" class="btn btn-disabled">Отправить!</label>
     </div>
             </div>
 

@@ -3,7 +3,7 @@
         <label tabindex="0" class="btn-ghost m-1">
             <Icon name="material-symbols:chat-outline" size="32" />
         </label>
-        <ul tabindex="0" class="dropdown-content bg-slate-700 menu p-2 shadow bg-base-100 rounded-box w-52">
+        <ul tabindex="0" class="dropdown-content bg-slate-800 menu p-2 shadow bg-base-100 rounded-box w-52">
             <li>
                 <label for="my-modal-3"><Icon name="fluent:form-48-regular" />Форма</label>
             </li>
