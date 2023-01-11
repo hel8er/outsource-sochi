@@ -1,27 +1,15 @@
 <template>
-    <div>
-      <select v-model="$colorMode.preference">
-        <option value="system">System</option>
-        <option value="light">Light</option>
-        <option value="dark">Dark</option>
-      </select>
-    </div>
-  </template>
-  <script setup>
+  <div>
+    <!-- <h1>Color mode: {{ $colorMode.value }}</h1> -->
+    <button aria-label="Color Mode" class="inline-block" @click="onClick">
+  <ColorScheme placeholder="...">
+    <Icon v-if="colorMode.value === 'dark'" name="heroicons-outline:moon" size="32"/>
+    <Icon v-else name="heroicons-outline:sun" size="32"/>
+  </ColorScheme>
+</button>
+  </div>
+</template>
+<script setup>
   const colorMode = useColorMode()
-  console.log(colorMode.preference)
-  </script>
-  <style>
-  /* body {
-    background-color: #fff;
-    color: rgba(0,0,0,0.8);
-  }
-  .dark-mode body {
-    background-color: #091a28;
-    color: #ebf4f1;
-  }
-  .sepia-mode body {
-    background-color: #f1e7d0;
-    color: #433422;
-  } */
-  </style>
+  const onClick = () => (colorMode.value === 'light' ? (colorMode.preference = 'dark') : (colorMode.preference = 'light'))
+</script>

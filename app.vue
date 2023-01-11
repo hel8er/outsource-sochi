@@ -2,6 +2,6 @@
   <div tabindex="0" class="container max-w-5xl mx-auto">
     <NavBar />
     <NuxtPage />
-    <BottomNav />
+    <!-- <BottomNav /> -->
   </div>
 </template>
