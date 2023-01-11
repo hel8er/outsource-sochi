@@ -1,5 +1,5 @@
 <template>
-<div class="py-36">
+<div class="py-16">
 <Chat />
 
 <FeedbackModal />
