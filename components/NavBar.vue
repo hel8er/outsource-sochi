@@ -1,12 +1,12 @@
 <template>
     <div>
-        <div class="navbar bg-base-100">
+        <div class="navbar text-slate-800 dark:text-slate-400">
             <div class="flex-1">
                 <a class="btn btn-ghost normal-case text-xl">IT-аутсорсинг в Сочи</a>
             </div>
             <div class="flex-none space-x-2">
+                <ColormodeSwitch />
                 <ContactsDropdown />
-                <!-- <ColormodeSwitch /> -->
             </div>
         </div>
     </div>

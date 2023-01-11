@@ -2,7 +2,7 @@
     <div class="mx-auto max-w-3xl">
 
     <div class="chat chat-start">
-        <div class="chat-bubble">Приветсвую!<br />Пока сайт находится в разработке я расскажу пару слов о том какие услуги я предоставляю</div>
+        <div class="chat-bubble">Приветствую!<br />Пока сайт находится в разработке я расскажу пару слов о том какие услуги я предоставляю</div>
     </div>
 
     <div class="chat chat-start">
